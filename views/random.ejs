@@ -1,0 +1,11 @@
+<%- include('partials/head')%>
+        <title>Random number Generator</title>
+        <%- include('partials/navbar.ejs')%>
+        <h1>The random number is: <%= num %></h1>
+        <% if (num % 2) {%>
+            <h2> This is an odd number</h2>
+        <% } else {%>
+            <h2> This is an even number</h2>
+        <% } %>
+    </body>
+</html>
